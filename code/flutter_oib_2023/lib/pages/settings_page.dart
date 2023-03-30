@@ -35,7 +35,7 @@ class SettingsPage extends ConsumerWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Text("Windows size"),
+              const Text("Select Window Size"),
               DropdownButton<WindowSizeEnum>(
                 value: ref.watch(windowSizeProvider),
                 onChanged: (WindowSizeEnum? value) =>
