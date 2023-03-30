@@ -7,7 +7,14 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 ### Caratteristiche
 
 * [ ] Responsive UI
+  * [MediaQuery class](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
+  * [MediaQuery (Flutter Widget of the Week)](https://www.youtube.com/watch?v=A3WrA4zAaPw)
+  * [MediaQuery in Flutter](https://medium.com/flutter-community/mediaquery-in-flutter-4317d3fe3612)
 * [ ] Navigation Rail
+  * [NavigationRail class](https://api.flutter.dev/flutter/material/NavigationRail-class.html)
+  * [NavigationRail (Widget of the Week)](https://www.youtube.com/watch?v=y9xchtVTtqQ)
+  * [Using NavigationRail and BottomNavigationBar in Flutter](https://www.kindacode.com/article/using-navigationrail-and-bottomnavigationbar-in-flutter/)
+
 * [ ] Modifica dimensione finestra ([window_manager](https://pub.dev/packages/window_manager))
 * [ ] Libreria per Windows ([fluent_ui](https://pub.dev/packages/fluent_ui))
   * [ ] Esempio di UI per Windows
