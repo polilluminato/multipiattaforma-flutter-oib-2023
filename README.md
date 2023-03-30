@@ -11,19 +11,31 @@ Il seminario si configura come una introduzione allo sviluppo di applicazioni mu
 
 * [Link](https://www.isiformazione.it/ita/_V2.0_risultatiricerca.asp?apriModalEvento=true&apriModEvIdEdizione=1095&apriModEvCodOrdine=ING-BG&apriModEvTimeCheck=-1000) all'evento su Isi Formazione
 
-
 #### Introduzione a Flutter
 
 Il seminario si configura come una introduzione a Flutter, framework open-source creato da Google per la creazione di interfacce native per iOS, Android, Web, Windows, macOS e Linux. Verranno presentate le sue caratteristiche, potenzialità, strumenti per lo sviluppo e la monetizzazione che lo rendono interessante nel panorama dello sviluppo multipiattaforma. Presente anche una demo di realizzazione di una app con diverse configurazioni per adattarsi alle piattaforme supportate.
 
 * [Link](https://www.isiformazione.it/ita/_V2.0_risultatiricerca.asp?apriModalEvento=true&apriModEvIdEdizione=1096&apriModEvCodOrdine=ING-BG&apriModEvTimeCheck=-1000) all'evento su Isi Formazione
 
-### 🧬 Struttura
+## 🧬 Struttura
 
 * [/code](/code/flutter_school/): Codice dell'applicazione di esempio realizzata durante la parte di demo per mostrare le caratteristiche di Flutter
 * [/docs](/docs/): Appunti in formato Markdown per ripercorrere la demo
 * [/slides](/slides/): Presentazioni utilizzate nei due seminari
 
+## 📚 Risorse
+
+#### Docs
+* [Flutter.dev](https://flutter.dev/)
+* [Dart.dev](https://dart.dev/)
+* [Google Codelabs](https://codelabs.developers.google.com/?product=flutter)
+* [Google Devlibrary](https://devlibrary.withgoogle.com/products/flutter?sort=updated)
+* [Your first Flutter app](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0)
+
+#### Social 
+
+* [Flutter@Twitter](https://twitter.com/FlutterDev)
+* [Flutter@YouTube](https://www.youtube.com/@flutterdev)
 
 ## 💎 Contributing
 
