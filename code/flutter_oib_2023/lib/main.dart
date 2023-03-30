@@ -12,13 +12,12 @@ void main() async {
   usePathUrlStrategy();
 
   if (isDesktop) {
+    // Must add this line.
     await windowManager.ensureInitialized();
     windowManager.waitUntilReadyToShow().then((_) async {
       await windowManager.setSize(const Size(400, 890));
     });
   }
-  // Must add this line.
-  await windowManager.ensureInitialized();
 
   runApp(
     ProviderScope(
