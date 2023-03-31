@@ -37,6 +37,11 @@ Il seminario si configura come una introduzione a Flutter, framework open-source
 * [Flutter@Twitter](https://twitter.com/FlutterDev)
 * [Flutter@YouTube](https://www.youtube.com/@flutterdev)
 
+#### Roadmap 2023
+
+* [[PUBLIC] Flutter 2023 Strategy](https://flutter.dev/go/strategy-2023)
+* [Roadmap](https://github.com/flutter/flutter/wiki/Roadmap)
+
 ## 💎 Contributing
 
 Se hai qualche idea, sentiti libero di inviarmi le tue modifiche nella sezione delle [issue](https://github.com/polilluminato/multipiattaforma-flutter-oib-2023/issues) o con una pull request.
