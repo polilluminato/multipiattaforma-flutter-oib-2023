@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_oib_2023/enums/windowsize_enum.dart';
 import 'package:flutter_oib_2023/provider/windowsize_provider.dart';
+import 'package:flutter_oib_2023/utils/nil.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:window_manager/window_manager.dart';
+import 'package:flutter_oib_2023/utils/platform_utils.dart' as PlatformUtils;
 
 class SettingsPage extends ConsumerWidget {
   const SettingsPage({Key? key}) : super(key: key);
@@ -32,25 +34,27 @@ class SettingsPage extends ConsumerWidget {
       ),
       body: ListView(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              const Text("Select Window Size"),
-              DropdownButton<WindowSizeEnum>(
-                value: ref.watch(windowSizeProvider),
-                onChanged: (WindowSizeEnum? value) =>
-                    actionChangeWindowSize(ref, value!),
-                items: WindowSizeEnum.values
-                    .map<DropdownMenuItem<WindowSizeEnum>>(
-                        (WindowSizeEnum single) {
-                  return DropdownMenuItem<WindowSizeEnum>(
-                    value: single,
-                    child: Text(single.description),
-                  );
-                }).toList(),
-              )
-            ],
-          ),
+          PlatformUtils.isDesktop
+              ? Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Text("Select Window Size"),
+                    DropdownButton<WindowSizeEnum>(
+                      value: ref.watch(windowSizeProvider),
+                      onChanged: (WindowSizeEnum? value) =>
+                          actionChangeWindowSize(ref, value!),
+                      items: WindowSizeEnum.values
+                          .map<DropdownMenuItem<WindowSizeEnum>>(
+                              (WindowSizeEnum single) {
+                        return DropdownMenuItem<WindowSizeEnum>(
+                          value: single,
+                          child: Text(single.description),
+                        );
+                      }).toList(),
+                    )
+                  ],
+                )
+              : nil,
         ],
       ),
     );
