@@ -89,9 +89,6 @@ class HomePage extends ConsumerWidget {
                   )
                   .toList(),
             ),
-          // Main content
-          // This part is always shown
-          // You will see it on both small and wide screen
           Expanded(child: tabList[ref.watch(indexTabProvider)].content),
         ],
       ),
