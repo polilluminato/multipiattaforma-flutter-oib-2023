@@ -32,6 +32,16 @@ Il seminario si configura come una introduzione a Flutter, framework open-source
 * [Google Devlibrary](https://devlibrary.withgoogle.com/products/flutter?sort=updated)
 * [Your first Flutter app](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0)
 
+#### Estensioni per Visual Studio Code
+
+* [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code): Dart language support and debugger for Visual Studio Code
+* [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter): Flutter support and debugger for Visual Studio Code
+* [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist): Easily add and update dependencies to your Dart and Flutter project
+* [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets): Awesome Flutter Snippets is a collection snippets and shortcuts for commonly used Flutter functions and classes
+* [flutter-stylizer](https://marketplace.visualstudio.com/items?itemName=gmlewis-vscode.flutter-stylizer): Flutter Stylizer organizes your Flutter classes in an opinionated and consistent manner
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spelling checker for source code
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Visual Studio Code plugin that autocompletes filenames
+
 #### Social 
 
 * [Flutter@Twitter](https://twitter.com/FlutterDev)
