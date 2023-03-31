@@ -17,10 +17,11 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
   * [Using NavigationRail and BottomNavigationBar in Flutter](https://www.kindacode.com/article/using-navigationrail-and-bottomnavigationbar-in-flutter/)
   * [How to build a bottom navigation bar in Flutter](https://blog.logrocket.com/how-to-build-a-bottom-navigation-bar-in-flutter/)
 * [X] Modifica dimensione finestra ([window_manager](https://pub.dev/packages/window_manager))
-* [ ] News Page
-  * [ ] Responsive
-* [ ] Gallery Page 
-  * [ ] Responsive
+* [X] News Page
+  * [X] Responsive
+    * [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view): Provides a collection of Flutter grids layouts (staggered, masonry, quilted, woven, etc.)
+* [X] Gallery Page 
+  * [X] Responsive
 * [ ] Libreria per Windows ([fluent_ui](https://pub.dev/packages/fluent_ui))
   * [ ] Esempio di UI per Windows
 * [ ] Libreria per MacOS ([macos_ui](https://pub.dev/packages/macos_ui))
@@ -32,6 +33,7 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 
 * [Free for Developers](https://free-for.dev/#/)
 * [News API](https://newsapi.org/): Search news on the web with code, get JSON results. Developers get 3,000 queries free each month.
+* [Pexels API](https://www.pexels.com/api/): Give your users access to our entire photo and video library without leaving your app or website. It's free and seamlessly integrates with just a few lines of code. Get started and immediately receive your unique API key.
 
 ## 📱 Screenshots
 
