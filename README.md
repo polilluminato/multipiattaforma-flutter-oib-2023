@@ -19,8 +19,8 @@ Il seminario si configura come una introduzione a Flutter, framework open-source
 
 ## 🧬 Struttura
 
-* [/code](/code/flutter_school/): Codice dell'applicazione di esempio realizzata durante la parte di demo per mostrare le caratteristiche di Flutter
-* [/docs](/docs/): Appunti in formato Markdown per ripercorrere la demo
+* [/code](/code/flutter_oib_2023/): Codice dell'applicazione di esempio realizzata durante la parte di demo per mostrare le caratteristiche di Flutter
+* [/docs](/docs/): Appunti e approfondimenti
 * [/slides](/slides/): Presentazioni utilizzate nei due seminari
 
 ## 📚 Risorse
