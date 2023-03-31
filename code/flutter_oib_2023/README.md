@@ -28,6 +28,11 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 * [ ] Libreria per Linux ([yaru](https://pub.dev/packages/yaru))
   * [ ] Esempio di UI per Linux  
 
+## APIs
+
+* [Free for Developers](https://free-for.dev/#/)
+* [News API](https://newsapi.org/): Search news on the web with code, get JSON results. Developers get 3,000 queries free each month.
+
 ## 📱 Screenshots
 
 ToDo
