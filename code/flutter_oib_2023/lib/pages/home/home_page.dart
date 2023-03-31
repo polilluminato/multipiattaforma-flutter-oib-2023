@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_oib_2023/enums/windowsize_enum.dart';
 import 'package:flutter_oib_2023/models/screen_tab_model.dart';
-import 'package:flutter_oib_2023/pages/home/screen/gallery_screen.dart';
+import 'package:flutter_oib_2023/pages/home/screen/gallery/gallery_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/linux_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/macos_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/news/news_screen.dart';
