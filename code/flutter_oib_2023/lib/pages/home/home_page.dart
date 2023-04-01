@@ -4,10 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_oib_2023/enums/windowsize_enum.dart';
 import 'package:flutter_oib_2023/models/screen_tab_model.dart';
 import 'package:flutter_oib_2023/pages/home/screen/gallery/gallery_screen.dart';
-import 'package:flutter_oib_2023/pages/home/screen/linux_screen.dart';
-import 'package:flutter_oib_2023/pages/home/screen/macos_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/news/news_screen.dart';
-import 'package:flutter_oib_2023/pages/home/screen/windows_screen.dart';
+import 'package:flutter_oib_2023/pages/home/screen/desktop/desktop_screen.dart';
 import 'package:flutter_oib_2023/utils/screen_utils.dart' as ScreenUtils;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -26,20 +24,10 @@ final List<ScreenTab> tabList = [
     content: const GalleryScreen(),
   ),
   ScreenTab(
-    label: "Windows",
+    label: "Desktop",
     icon: Icons.desktop_windows,
-    content: const WindowsScreen(),
+    content: const DesktopScreen(),
   ),
-  ScreenTab(
-    label: "macOS",
-    icon: Icons.laptop_mac,
-    content: const MacOSScreen(),
-  ),
-  ScreenTab(
-    label: "Linux",
-    icon: Icons.terminal,
-    content: const LinuxScreen(),
-  )
 ];
 
 class HomePage extends ConsumerWidget {
