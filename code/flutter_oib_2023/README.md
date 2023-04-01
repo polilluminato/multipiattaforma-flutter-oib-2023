@@ -10,6 +10,7 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
   * [MediaQuery class](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
   * [MediaQuery (Flutter Widget of the Week)](https://www.youtube.com/watch?v=A3WrA4zAaPw)
   * [MediaQuery in Flutter](https://medium.com/flutter-community/mediaquery-in-flutter-4317d3fe3612)
+  * [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view): Provides a collection of Flutter grids layouts (staggered, masonry, quilted, woven, etc.)
 * [X] NavigationRail e NavigationBar
   * [NavigationRail class](https://api.flutter.dev/flutter/material/NavigationRail-class.html)
   * [NavigationBar class](https://api.flutter.dev/flutter/material/NavigationBar-class.html)
@@ -19,15 +20,13 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 * [X] Modifica dimensione finestra ([window_manager](https://pub.dev/packages/window_manager))
 * [X] News Page
   * [X] Responsive
-    * [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view): Provides a collection of Flutter grids layouts (staggered, masonry, quilted, woven, etc.)
 * [X] Gallery Page 
   * [X] Responsive
-* [ ] Libreria per Windows ([fluent_ui](https://pub.dev/packages/fluent_ui))
-  * [ ] Esempio di UI per Windows
-* [ ] Libreria per MacOS ([macos_ui](https://pub.dev/packages/macos_ui))
-  * [ ] Esempio di UI per Windows  
-* [ ] Libreria per Linux ([yaru](https://pub.dev/packages/yaru))
-  * [ ] Esempio di UI per Linux  
+* [X] Libreria interfaccia su Desktop
+  * [fluent_ui](https://pub.dev/packages/fluent_ui): Implements Windows UI in Flutter. Based on the official documentation
+  * [macos_ui](https://pub.dev/packages/macos_ui): Flutter widgets and themes implementing the current macOS design language
+  * [yaru](https://pub.dev/packages/yaru): Ubuntu Yaru Style - Distinct look and feel of the Ubuntu Desktop
+  * [yaru_widgets](https://pub.dev/packages/yaru_widgets): Common flutter widgets useful for building desktop and web applications
 
 ## 📚 Risorse
 
