@@ -42,18 +42,22 @@ class DocumentationDemoCard extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                TextButton(
-                  onPressed: () => PlatformUtils.openExternalLink(
-                    linkDocumentation,
-                  ),
-                  child: const Text("Documentazione"),
-                ),
-                TextButton(
-                  onPressed: () => PlatformUtils.openExternalLink(
-                    linkDemo,
-                  ),
-                  child: const Text("Demo"),
-                ),
+                linkDocumentation.isNotEmpty
+                    ? TextButton(
+                        onPressed: () => PlatformUtils.openExternalLink(
+                          linkDocumentation,
+                        ),
+                        child: const Text("Documentazione"),
+                      )
+                    : Container(),
+                linkDemo.isNotEmpty
+                    ? TextButton(
+                        onPressed: () => PlatformUtils.openExternalLink(
+                          linkDemo,
+                        ),
+                        child: const Text("Demo"),
+                      )
+                    : Container(),
               ],
             )
           ],
