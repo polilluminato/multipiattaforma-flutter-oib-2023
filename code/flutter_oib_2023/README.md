@@ -29,7 +29,15 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 * [ ] Libreria per Linux ([yaru](https://pub.dev/packages/yaru))
   * [ ] Esempio di UI per Linux  
 
-## APIs
+## 📚 Risorse
+
+* [Flutter on Desktop](https://flutter.dev/multi-platform/desktop)
+* [Where to find documentation for Flutter on Desktop](https://flutterondesktop.dev/where-to-find-documentation-for-flutter-on-desktop)
+* [How to seamlessly integrate Flutter apps in Windows](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-windows)
+* [How to seamlessly integrate Flutter apps in macOS](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-macos)
+* [How to seamlessly integrate Flutter apps in Ubuntu and Linux](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-ubuntu-and-linux)
+
+## 🐝 APIs
 
 * [Free for Developers](https://free-for.dev/#/)
 * [News API](https://newsapi.org/): Search news on the web with code, get JSON results. Developers get 3,000 queries free each month.

@@ -23,24 +23,13 @@ Il seminario si configura come una introduzione a Flutter, framework open-source
 * [/docs](/docs/): Appunti e approfondimenti
 * [/slides](/slides/): Presentazioni utilizzate nei due seminari
 
-## 📚 Risorse
+## 📚 Docs & Links
 
-#### Docs
 * [Flutter.dev](https://flutter.dev/)
 * [Dart.dev](https://dart.dev/)
 * [Google Codelabs](https://codelabs.developers.google.com/?product=flutter)
 * [Google Devlibrary](https://devlibrary.withgoogle.com/products/flutter?sort=updated)
 * [Your first Flutter app](https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0)
-
-#### Estensioni per Visual Studio Code
-
-* [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code): Dart language support and debugger for Visual Studio Code
-* [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter): Flutter support and debugger for Visual Studio Code
-* [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist): Easily add and update dependencies to your Dart and Flutter project
-* [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets): Awesome Flutter Snippets is a collection snippets and shortcuts for commonly used Flutter functions and classes
-* [flutter-stylizer](https://marketplace.visualstudio.com/items?itemName=gmlewis-vscode.flutter-stylizer): Flutter Stylizer organizes your Flutter classes in an opinionated and consistent manner
-* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spelling checker for source code
-* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Visual Studio Code plugin that autocompletes filenames
 
 #### Social 
 
@@ -51,6 +40,16 @@ Il seminario si configura come una introduzione a Flutter, framework open-source
 
 * [[PUBLIC] Flutter 2023 Strategy](https://flutter.dev/go/strategy-2023)
 * [Roadmap](https://github.com/flutter/flutter/wiki/Roadmap)
+
+#### Estensioni per Visual Studio Code
+
+* [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code): Dart language support and debugger for Visual Studio Code
+* [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter): Flutter support and debugger for Visual Studio Code
+* [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist): Easily add and update dependencies to your Dart and Flutter project
+* [Awesome Flutter Snippets](https://marketplace.visualstudio.com/items?itemName=Nash.awesome-flutter-snippets): Awesome Flutter Snippets is a collection snippets and shortcuts for commonly used Flutter functions and classes
+* [flutter-stylizer](https://marketplace.visualstudio.com/items?itemName=gmlewis-vscode.flutter-stylizer): Flutter Stylizer organizes your Flutter classes in an opinionated and consistent manner
+* [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spelling checker for source code
+* [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Visual Studio Code plugin that autocompletes filenames
 
 ## 💎 Contributing
 
