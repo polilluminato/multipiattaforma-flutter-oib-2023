@@ -10,18 +10,19 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
   * [MediaQuery class](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html)
   * [MediaQuery (Flutter Widget of the Week)](https://www.youtube.com/watch?v=A3WrA4zAaPw)
   * [MediaQuery in Flutter](https://medium.com/flutter-community/mediaquery-in-flutter-4317d3fe3612)
-  * [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view): Provides a collection of Flutter grids layouts (staggered, masonry, quilted, woven, etc.)
 * [X] NavigationRail e NavigationBar
   * [NavigationRail class](https://api.flutter.dev/flutter/material/NavigationRail-class.html)
   * [NavigationBar class](https://api.flutter.dev/flutter/material/NavigationBar-class.html)
   * [NavigationRail (Widget of the Week)](https://www.youtube.com/watch?v=y9xchtVTtqQ)
   * [Using NavigationRail and BottomNavigationBar in Flutter](https://www.kindacode.com/article/using-navigationrail-and-bottomnavigationbar-in-flutter/)
   * [How to build a bottom navigation bar in Flutter](https://blog.logrocket.com/how-to-build-a-bottom-navigation-bar-in-flutter/)
-* [X] Modifica dimensione finestra ([window_manager](https://pub.dev/packages/window_manager))
+* [X] Modifica dimensione finestra 
+  * [window_manager](https://pub.dev/packages/window_manager): This plugin allows Flutter desktop apps to resizing and repositioning the window
 * [X] News Page
   * [X] Responsive
 * [X] Gallery Page 
   * [X] Responsive
+  * [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view): Provides a collection of Flutter grids layouts (staggered, masonry, quilted, woven, etc.)
 * [X] Libreria interfaccia su Desktop
   * [fluent_ui](https://pub.dev/packages/fluent_ui): Implements Windows UI in Flutter. Based on the official documentation
   * [macos_ui](https://pub.dev/packages/macos_ui): Flutter widgets and themes implementing the current macOS design language
@@ -35,8 +36,16 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 * [How to seamlessly integrate Flutter apps in Windows](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-windows)
 * [How to seamlessly integrate Flutter apps in macOS](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-macos)
 * [How to seamlessly integrate Flutter apps in Ubuntu and Linux](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-ubuntu-and-linux)
+* [Corsi su Flutter pratici e in italiano](https://www.fudeo.it/#InternalCourses)
 
-## 🐝 APIs
+### 🎥 Video YouTube
+
+* [Corso di Flutter in italiano](https://www.youtube.com/playlist?list=PLRQ3fAbkE3MZcEUKbJEHdxEe63aEzvKAw)
+* [Corso Flutter Web in Italiano per sviluppare app web | Framework cross platform](https://www.youtube.com/watch?v=7lBwVSo1_gg)
+* [Corso Flutter Desktop in Italiano per sviluppare app desktop | Framework cross platform](https://www.youtube.com/watch?v=abitI1uRelw)
+
+
+### 🐝 APIs
 
 * [Free for Developers](https://free-for.dev/#/)
 * [News API](https://newsapi.org/): Search news on the web with code, get JSON results. Developers get 3,000 queries free each month.
