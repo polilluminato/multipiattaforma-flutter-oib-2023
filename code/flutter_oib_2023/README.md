@@ -37,6 +37,7 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 * [How to seamlessly integrate Flutter apps in macOS](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-macos)
 * [How to seamlessly integrate Flutter apps in Ubuntu and Linux](https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-ubuntu-and-linux)
 * [Corsi su Flutter pratici e in italiano](https://www.fudeo.it/#InternalCourses)
+* [flutter_distributor](https://distributor.leanflutter.org/): Uno strumento completo per pacchettizzare e pubblicare le vostre applicazioni Flutter
 
 ### 🎥 Video YouTube
 
