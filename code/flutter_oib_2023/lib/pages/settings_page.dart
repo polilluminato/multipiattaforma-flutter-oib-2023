@@ -34,24 +34,21 @@ class SettingsPage extends ConsumerWidget {
       body: ListView(
         children: [
           PlatformUtils.isDesktop
-              ? Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    const Text("Select Window Size"),
-                    DropdownButton<WindowSizeEnum>(
-                      value: ref.watch(windowSizeProvider),
-                      onChanged: (WindowSizeEnum? value) =>
-                          actionChangeWindowSize(ref, value!),
-                      items: WindowSizeEnum.values
-                          .map<DropdownMenuItem<WindowSizeEnum>>(
-                              (WindowSizeEnum single) {
-                        return DropdownMenuItem<WindowSizeEnum>(
-                          value: single,
-                          child: Text(single.description),
-                        );
-                      }).toList(),
-                    )
-                  ],
+              ? ListTile(
+                  title: const Text("Select Window Size"),
+                  trailing: DropdownButton<WindowSizeEnum>(
+                    value: ref.watch(windowSizeProvider),
+                    onChanged: (WindowSizeEnum? value) =>
+                        actionChangeWindowSize(ref, value!),
+                    items: WindowSizeEnum.values
+                        .map<DropdownMenuItem<WindowSizeEnum>>(
+                            (WindowSizeEnum single) {
+                      return DropdownMenuItem<WindowSizeEnum>(
+                        value: single,
+                        child: Text(single.description),
+                      );
+                    }).toList(),
+                  ),
                 )
               : Container(),
         ],
