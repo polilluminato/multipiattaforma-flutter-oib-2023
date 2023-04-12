@@ -1,3 +1,5 @@
+// ignore_for_file: library_prefixes
+
 import 'package:flutter/material.dart';
 import 'package:flutter_oib_2023/enums/windowsize_enum.dart';
 import 'package:flutter_oib_2023/provider/windowsize_provider.dart';

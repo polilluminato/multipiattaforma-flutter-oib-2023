@@ -1,12 +1,11 @@
 // ignore_for_file: prefer_const_constructors_in_immutables, library_prefixes
 
 import 'package:flutter/material.dart';
-import 'package:flutter_oib_2023/enums/windowsize_enum.dart';
 import 'package:flutter_oib_2023/models/screen_tab_model.dart';
 import 'package:flutter_oib_2023/pages/home/screen/demo/demo_screen.dart';
+import 'package:flutter_oib_2023/pages/home/screen/desktop/desktop_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/gallery/gallery_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/news/news_screen.dart';
-import 'package:flutter_oib_2023/pages/home/screen/desktop/desktop_screen.dart';
 import 'package:flutter_oib_2023/utils/screen_utils.dart' as ScreenUtils;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -23,16 +22,6 @@ final List<ScreenTab> tabList = [
     label: "Gallery",
     icon: Icons.grid_view,
     content: const GalleryScreen(),
-  ),
-  ScreenTab(
-    label: "Desktop",
-    icon: Icons.desktop_windows,
-    content: const DesktopScreen(),
-  ),
-  ScreenTab(
-    label: "Demo",
-    icon: Icons.settings_applications,
-    content: const DemoScreen(),
   ),
 ];
 
@@ -64,45 +53,24 @@ class HomePage extends ConsumerWidget {
       body: Row(
         mainAxisSize: MainAxisSize.max,
         children: [
-          if (screenSizeWidth >= WindowSizeEnum.tabletPortrait.width)
-            NavigationRail(
-              backgroundColor: colorScheme.primaryContainer,
-              extended: screenSizeWidth >= WindowSizeEnum.tabletLandscape.width,
-              selectedIndex: ref.watch(indexTabProvider),
-              // Called when one tab is selected
-              onDestinationSelected: (int index) {
-                ref.read(indexTabProvider.notifier).state = index;
-              },
-              // navigation rail items
-              destinations: tabList
-                  .map(
-                    (singleScreenTab) => NavigationRailDestination(
-                      icon: Icon(singleScreenTab.icon),
-                      label: Text(singleScreenTab.label),
-                    ),
-                  )
-                  .toList(),
-            ),
           Expanded(child: tabList[ref.watch(indexTabProvider)].content),
         ],
       ),
-      bottomNavigationBar: screenSizeWidth < WindowSizeEnum.tabletPortrait.width
-          ? NavigationBar(
-              backgroundColor: colorScheme.primaryContainer,
-              onDestinationSelected: (int index) {
-                ref.read(indexTabProvider.notifier).state = index;
-              },
-              selectedIndex: ref.watch(indexTabProvider),
-              destinations: tabList
-                  .map(
-                    (singleScreenTab) => NavigationDestination(
-                      icon: Icon(singleScreenTab.icon),
-                      label: singleScreenTab.label,
-                    ),
-                  )
-                  .toList(),
+      bottomNavigationBar: NavigationBar(
+        backgroundColor: colorScheme.primaryContainer,
+        onDestinationSelected: (int index) {
+          ref.read(indexTabProvider.notifier).state = index;
+        },
+        selectedIndex: ref.watch(indexTabProvider),
+        destinations: tabList
+            .map(
+              (singleScreenTab) => NavigationDestination(
+                icon: Icon(singleScreenTab.icon),
+                label: singleScreenTab.label,
+              ),
             )
-          : null,
+            .toList(),
+      ),
     );
   }
 }
