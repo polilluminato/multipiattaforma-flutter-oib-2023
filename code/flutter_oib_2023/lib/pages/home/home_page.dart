@@ -2,8 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_oib_2023/models/screen_tab_model.dart';
-import 'package:flutter_oib_2023/pages/home/screen/demo/demo_screen.dart';
-import 'package:flutter_oib_2023/pages/home/screen/desktop/desktop_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/gallery/gallery_screen.dart';
 import 'package:flutter_oib_2023/pages/home/screen/news/news_screen.dart';
 import 'package:flutter_oib_2023/utils/screen_utils.dart' as ScreenUtils;
