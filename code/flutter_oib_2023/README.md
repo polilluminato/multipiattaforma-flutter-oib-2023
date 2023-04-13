@@ -52,10 +52,6 @@ Demo di una applicazione multipiattaforma sviluppata durante il seminario di [In
 * [News API](https://newsapi.org/): Search news on the web with code, get JSON results. Developers get 3,000 queries free each month.
 * [Pexels API](https://www.pexels.com/api/): Give your users access to our entire photo and video library without leaving your app or website. It's free and seamlessly integrates with just a few lines of code. Get started and immediately receive your unique API key.
 
-## 📱 Screenshots
-
-ToDo
-
 ## 💎 Contributing
 
 Se hai qualche idea, sentiti libero di inviarmi le tue modifiche nella sezione delle [issue](https://github.com/polilluminato/multipiattaforma-flutter-oib-2023/issues) o con una pull request.
